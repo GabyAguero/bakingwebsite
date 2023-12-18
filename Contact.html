@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact page</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <a href="About.html">About</a><br/>
+        <a href="Add.html">Add</a><br/>
+        <a href="Contact.html">Contact</a><br/>
+        <a href="Display.html">Display</a><br/>
+        <a href="Index.html">Index</a><br/>
+
+    <div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>CONTACT FORM</h3>
+                <form>
+                    <div class="form-group">
+                        <label>First Name: </label><br/>
+
+                        <input type="First name" name="First name" placeholder="Your first name">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Second name: </label><br/>
+
+                        <input type="Second name" name="Second name" placeholder="Your second name">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Telephone number: </label><br/>
+
+                        <input type="tel" name="Telephone" placeholder="Your telephone number">
+                    </div>
+                
+                    <div class="form-group">
+                        <label for="gender">Gender:</label><br/>
+
+                        <select class="form-control" name="gender"></select>
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                        </select>
+
+                    <div class="form-group">
+                        <label for="movies">Movies:</label>
+                        <select class="form-control" name="Movies[]">Use Control and the mouse to select movies>
+                            <option value="robot">Mr. Robot</option>
+                            <option value="Silicon">Silicon Valley</option>
+                            <option value="creator">The creator</option>
+                            <option value="Imagination">Imagination</option>
+                        </select>
+                    </div>
+                    <hr/>
+                    <div>
+                        <label for="">Python</label>
+                        <input type="radio" name="python">
+
+                        <label for="">PHP</label>
+                        <input type="radio" name="php">
+
+                        <label for="">Java</label>
+                        <input type="checkbox" name="java">
+
+                        <label for="">JavaScript</label>
+                        <input type="checkbox" name="js">
+                    </div>
+                    <br/>
+
+                    <button type="submit" class="btn btn-sucess" style="color: aquamarine;" solid >Submit</button>
+                </form>
+            </div>    
+        </div>
+    </div>
+
+        <p>This is the contact page </p>
+    </body>
+</html>
