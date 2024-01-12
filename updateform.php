@@ -21,38 +21,8 @@
             </div>
             <div class="row">
                     <div class="col-lg-6">
-                        <h3>Services</h3>
-                        <form action="process_product_form.php" method="post" style="text-align:center;">
-                            
-        
-                            <div class="form-group">
-                                <label>First name</label><br/>
-        
-                                <input type="text" name="Firstname" class="form-control" placeholder="First name">
-                            </div>
-        
-                            <div class="form-group">
-                                <label>Mobile number</label><br/>
-        
-                                <input type="text" name="Mobilenumber" class="form-control" placeholder="Mobile number">
-                            </div>
-
-                            <div class="form-group">
-                                <label></label><br/>
-        
-                                <input type="date" name="Manufacturingdate" class="form-control">
-                            </div>
-
-                            <div class="form-group">
-                                <label>Product description</label><br/>
-        
-                                <input type="text" name="Productdescription" class="form-control" placeholder="Product description">
-                            </div>
-                            <button type="submit" class="btn btn-primary">Add Product</button>
-
-            </div>
-
-            <footer class="bg-dark text-white py-3">
+                   
+                       
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
